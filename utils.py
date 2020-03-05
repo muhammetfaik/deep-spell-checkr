@@ -8,6 +8,7 @@ from keras.layers import Input
 
 from model import truncated_acc, truncated_loss
 
+import pdb
 np.random.seed(1234)
 
 SOS = '\t' # start of sequence.
