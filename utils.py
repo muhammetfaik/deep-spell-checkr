@@ -203,7 +203,7 @@ def decode_sequences(inputs, targets, input_ctable, target_ctable,
     #    and a start-of-sequence character as target.
     #    Output will be the next target character.
     # 3) Repeat with the current target character and current states.
-
+    pdb.set_trace()
     # Encode the input as state vectors.    
     states_value = encoder_model.predict(input_sequences)
     
